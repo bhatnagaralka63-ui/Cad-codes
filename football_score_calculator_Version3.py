@@ -18,10 +18,10 @@ while True:
         break
     elif event == '1':
         team1_goals += 1
-        print(f"Goal! {team1} scores 🎉")
+        print(f"Goal! {team1} scores")
     elif event == '2':
         team2_goals += 1
-        print(f"Goal! {team2} scores 🎉")
+        print(f"Goal! {team2} scores")
     elif event == 't':
         try:
             minutes = int(input("Enter minutes passed: "))
@@ -45,9 +45,9 @@ print(f"Match Time: {time} minutes")
 
 # Determine winner
 if team1_goals > team2_goals:
-    print(f"\n🏆 {team1} wins!")
+    print(f"\n {team1} wins!")
 elif team2_goals > team1_goals:
-    print(f"\n🏆 {team2} wins!")
+    print(f"\n {team2} wins!")
 else:
-    print("\n⚽ It's a draw!")
+    print("\n It's a draw!")
 print("="*40)
