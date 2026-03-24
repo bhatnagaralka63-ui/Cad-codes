@@ -1,3 +1,4 @@
+# Football Score Calculator
 team1 = input("Enter Team 1 name: ").strip()
 team2 = input("Enter Team 2 name: ").strip()
 
