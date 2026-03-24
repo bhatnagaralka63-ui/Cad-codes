@@ -1,4 +1,4 @@
-# Correct OTP (already set)
+# Correct OTP (already set) remade
 correct_otp = "5678"
 
 # User se OTP lena
